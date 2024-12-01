@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full HD Movies</title>
+    <!--Stylesheet(css)-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--Fav-icon-->
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+    
+    <!--import poppins font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+<!--import Montos font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+<!--Using Fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--==CSS-Swiper=====-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+  <!---==Scroll-Progress-bar==-->
+  <div id="progress">
+    <span id="progress-value"></span>
+  </div>
+
+ <!--Navigation-->
+ <nav class="navigation">
+
+    <!--Logo-------------------------->
+    <a href="index.html" class="logo">Movies<span>.hd</span></a>
+
+    <!--menu-btn-->
+    <input type="checkbox" class="menu-btn" id="menu-btn" />
+    <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+
+    </label>
+
+    <!--menu----->
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Genre</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!---serach-box-->
+  <form action="" class="search-box">
+<!--input-->
+<input type="text" name="search" placeholder="Search Movie" class="search-box" required/>
+<!--btn-->
+<button type="submit">
+    <i class="fas fa-search"></i>
+</button>
+  </form>
+</nav>
+    <!--nav-end-->
+
+<!--Slider-->
+<section id="main-slider">
+
+            <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!---1  ------->
+      <div class="swiper-slide">
+        <!--box--------->
+    <div class="main-slider-box">
+        
+      <!---overlayer----->
+      <div class="main-slider-overlay">
+        <i class="fas fa-play"></i>
+      </div>
+
+        <!---img---->
+        <div class="main-slider-img">
+              <img src="images/p-1.jpg" alt="">
+        </div>
+
+        <!---text----->
+<div class="main-slider-text">
+      <!---quality--->
+       <span class="quality">Full HD</span>
+      
+       <!----bottom-text--->
+   <div class="bottom-text">
+     <!-----name-->
+     <div class="movie-name">
+        <span>2014</span>
+        <strong>Paranormal Activity: The Marked Ones</strong>
+     </div>
+     <!--Category-and-rating-->
+     <div class="category-rating">
+       <div class="category">
+        <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+       </div>
+       <!---rating-->
+       <div class="rating">
+        5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+       </div>
+     </div>
+
+   </div> 
+
+    </div>
+
+    </div>
+      </div>
+
+         <!---2 ------->
+         <div class="swiper-slide">
+          <!--box--------->
+      <div class="main-slider-box">
+          
+        <!---overlayer----->
+        <a href="movie-page.html" class="main-slider-overlay">
+          <i class="fas fa-play"></i>
+        </a>
+  
+          <!---img---->
+          <div class="main-slider-img">
+                <img src="images/p-2.jpg" alt="">
+          </div>
+  
+          <!---text----->
+  <div class="main-slider-text">
+        <!---quality--->
+         <span class="quality">Full HD</span>
+        
+         <!----bottom-text--->
+     <div class="bottom-text">
+       <!-----name-->
+       <div class="movie-name">
+          <span>2014</span>
+          <strong>Paranormal Activity: The Marked Ones</strong>
+       </div>
+       <!--Category-and-rating-->
+       <div class="category-rating">
+         <div class="category">
+          <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+         </div>
+         <!---rating-->
+         <div class="rating">
+          5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+         </div>
+       </div>
+  
+     </div> 
+  
+      </div>
+  
+      </div>
+        </div>
+      
+           <!---3  ------->
+      <div class="swiper-slide">
+        <!--box--------->
+    <div class="main-slider-box">
+        
+      <!---overlayer----->
+      <div class="main-slider-overlay">
+        <i class="fas fa-play"></i>
+      </div>
+
+        <!---img---->
+        <div class="main-slider-img">
+              <img src="images/p-3.jpg" alt="">
+        </div>
+
+        <!---text----->
+<div class="main-slider-text">
+      <!---quality--->
+       <span class="quality">Full HD</span>
+      
+       <!----bottom-text--->
+   <div class="bottom-text">
+     <!-----name-->
+     <div class="movie-name">
+        <span>2014</span>
+        <strong>Paranormal Activity: The Marked Ones</strong>
+     </div>
+     <!--Category-and-rating-->
+     <div class="category-rating">
+       <div class="category">
+        <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+       </div>
+       <!---rating-->
+       <div class="rating">
+        5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+       </div>
+     </div>
+
+   </div> 
+
+    </div>
+
+    </div>
+      </div>
+
+         <!---4  ------->
+         <div class="swiper-slide">
+          <!--box--------->
+      <div class="main-slider-box">
+          
+        <!---overlayer----->
+        <div class="main-slider-overlay">
+          <i class="fas fa-play"></i>
+        </div>
+  
+          <!---img---->
+          <div class="main-slider-img">
+                <img src="images/p-4.jpg" alt="">
+          </div>
+  
+          <!---text----->
+  <div class="main-slider-text">
+        <!---quality--->
+         <span class="quality">Full HD</span>
+        
+         <!----bottom-text--->
+     <div class="bottom-text">
+       <!-----name-->
+       <div class="movie-name">
+          <span>2014</span>
+          <strong>Paranormal Activity: The Marked Ones</strong>
+       </div>
+       <!--Category-and-rating-->
+       <div class="category-rating">
+         <div class="category">
+          <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+         </div>
+         <!---rating-->
+         <div class="rating">
+          5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+         </div>
+       </div>
+  
+     </div> 
+  
+      </div>
+  
+      </div>
+        </div>
+
+           <!---5  ------->
+      <div class="swiper-slide">
+        <!--box--------->
+    <div class="main-slider-box">
+        
+      <!---overlayer----->
+      <div class="main-slider-overlay">
+        <i class="fas fa-play"></i>
+      </div>
+
+        <!---img---->
+        <div class="main-slider-img">
+              <img src="images/p-5.jpg" alt="">
+        </div>
+
+        <!---text----->
+<div class="main-slider-text">
+      <!---quality--->
+       <span class="quality">Full HD</span>
+      
+       <!----bottom-text--->
+   <div class="bottom-text">
+     <!-----name-->
+     <div class="movie-name">
+        <span>2014</span>
+        <strong>Paranormal Activity: The Marked Ones</strong>
+     </div>
+     <!--Category-and-rating-->
+     <div class="category-rating">
+       <div class="category">
+        <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+       </div>
+       <!---rating-->
+       <div class="rating">
+        5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+       </div>
+     </div>
+
+   </div> 
+
+    </div>
+
+    </div>
+      </div>
+
+         <!---6  ------->
+         <div class="swiper-slide">
+          <!--box--------->
+      <div class="main-slider-box">
+          
+        <!---overlayer----->
+        <div class="main-slider-overlay">
+          <i class="fas fa-play"></i>
+        </div>
+  
+          <!---img---->
+          <div class="main-slider-img">
+                <img src="images/p-6.jpg" alt="">
+          </div>
+  
+          <!---text----->
+  <div class="main-slider-text">
+        <!---quality--->
+         <span class="quality">Full HD</span>
+        
+         <!----bottom-text--->
+     <div class="bottom-text">
+       <!-----name-->
+       <div class="movie-name">
+          <span>2014</span>
+          <strong>Paranormal Activity: The Marked Ones</strong>
+       </div>
+       <!--Category-and-rating-->
+       <div class="category-rating">
+         <div class="category">
+          <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+         </div>
+         <!---rating-->
+         <div class="rating">
+          5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+         </div>
+       </div>
+  
+     </div> 
+  
+      </div>
+  
+
+
+      </div>
+        </div>
+
+    </div>
+  </div>
+
+</section>
+<!--btns---===--->
+<div class="slider-btns">
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+<!--slider end-->
+
+
+<!---=Latest-Movies===-->
+<section id="latest">
+     <!---heading-->
+    <div class="latest-heading">
+      <h1>Latest Movies</h1>
+    </div> 
+
+<!--container--->
+<div class="post-container">
+
+
+  <!--post-box-1-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-1.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+
+  
+  <!--post-box-2-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-2.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-3-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-3.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-4-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-4.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-5-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-5.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-6-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-6.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-7-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-7.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-8-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-8.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-9-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-9.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-10-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-10.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-11-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-11.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+  
+  <!--post-box-12-->
+  <div class="post-box">
+    <!-----img-->
+    <div class="post-img">
+      <img src="images/post-12.jpg" alt=""/>
+    </div>
+              <!---text----->
+  <div class="main-slider-text">
+    <!---quality--->
+     <span class="quality">Full HD</span>
+    
+     <!----bottom-text--->
+ <div class="bottom-text">
+   <!-----name-->
+   <div class="movie-name">
+      <span>2014</span>
+      <a href="">Paranormal Activity: The Marked Ones</a>
+   </div>
+   <!--Category-and-rating-->
+   <div class="category-rating">
+     <div class="category">
+      <a href="#">Horror</a>,<a href="#">Mistery</a>,<a href="#">Thriller</a>
+     </div>
+     <!---rating-->
+     <div class="rating">
+      5.2<img src="images/IMDb-icon.png" alt="imbd"/>
+     </div>
+   </div>
+
+ </div> 
+
+  </div>
+  </div>
+
+</div>
+<!--===container end===-->
+
+<!--==Page -number===-->
+<div class="page-number">
+  <a href="#" class="page-active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  ....
+  <a href="#">100</a>
+</div>
+
+</section>
+
+<!--latest-post-end----->
+
+
+
+<!--===footer====------>
+<footer>
+  <!--footer-1---->
+  <a href="index.html" class="logo">
+    Movies<span>hd</span>
+  </a>
+  <!--copyright-->
+  <span class="copyright">
+    Copyright 2024 - CodingDad
+  </span>
+</footer>
+
+
+
+
+<!----swiper js-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--====jQuery===-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+/*==scroll-progress-bar==*/
+let scrollPercentage = () => {
+  let scrollProgress = document.getElementById("progress");
+  let progressValue = document.getElementById("progress-value");
+  let pos = document.documentElement.scrollTop;
+  let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrollValue = Math. round(pos * 100 /calcHeight);
+  scrollProgress.style.background = 'conic-gradient(#e70634 ${scrollValue}% , #2b2f38 ${scrollValue}%)';
+}
+window.onscroll = scrollPercentage;
+window.onload = scrollPercentage;
+
+  /*Initialize Swiper*/
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay:{
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+    },
+  });
+
+  /*--menu-btn-fixed-when-scroll==--*/
+$(window).scroll(function(){
+  if($(document).scrollTop() > 20){
+    $('.navigation').addClass('fix-icon');
+   }
+   else{
+    $('.navigation').removeClass('fix-icon');
+   }
+});
+
+</script>
+
+</body>
+</html>
